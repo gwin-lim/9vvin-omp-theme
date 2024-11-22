@@ -11,12 +11,6 @@ Download `9vvin_omp_theme.json` and ...
 oh-my-posh init pwsh --config '~/9vvin_omp_theme.json' | Invoke-Expression
 ```
 
-### remotely
-```ps1
-# Microsoft.PowerShell_profile.ps1
-oh-my-posh init pwsh --config 'https://github.com/gwin-lim/9vvin-term-theme/9vvin_omp_theme.json' | Invoke-Expression
-```
-
 ## VS Code Terminal Color Customization
 1. Open VS Code's `settings.json`
 2. Merge within `9vvin_vs_code_term_color.json` like ...
