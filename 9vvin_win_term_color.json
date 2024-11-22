@@ -1,0 +1,23 @@
+{
+  "name": "BOP-9vvin",
+  "background": "#2A1F1D",
+  "black": "#573D26",
+  "blue": "#5A86AD",
+  "brightBlack": "#9B6C4A",
+  "brightBlue": "#B8D3ED",
+  "brightCyan": "#93CFD7",
+  "brightGreen": "#95D8BA",
+  "brightPurple": "#D19ECB",
+  "brightRed": "#E84627",
+  "brightWhite": "#FFF9D5",
+  "brightYellow": "#D0D150",
+  "cursorColor": "#C07020",
+  "cyan": "#74A6AD",
+  "foreground": "#E0DBB7",
+  "green": "#6BA18A",
+  "purple": "#AC80A6",
+  "red": "#BE2D26",
+  "selectionBackground": "#563C27",
+  "white": "#E0DBB7",
+  "yellow": "#E99D2A"
+}
