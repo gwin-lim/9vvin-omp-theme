@@ -20,7 +20,7 @@ oh-my-posh init pwsh --config 'https://github.com/gwin-lim/9vvin-term-theme/9vvi
 ## VS Code Terminal Color Customization
 1. Open VS Code's `settings.json`
 2. Merge within `9vvin_vs_code_term_color.json` like ...
-```json
+```javascript
 {
   // ...
   "workbench.colorCustomizations": {
@@ -36,7 +36,7 @@ oh-my-posh init pwsh --config 'https://github.com/gwin-lim/9vvin-term-theme/9vvi
 1. Open Windows Terminal's `settings.json`
 2. Copy `9vvin_win_term_color.json`'s contents
 3. Paste into `Schemes` array like...
-```json
+```javascript
 {
   // ...
   "schemes": 
