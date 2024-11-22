@@ -1,4 +1,7 @@
 # 9vvin Oh-My-Posh Theme
+
+![demo](./demo.png)
+
 This is a repository of "9vvin Theme" for Windows Terminal PowerShell 7 Oh-My-Posh and VS Code Integrated Terminal.
 Its color scheme is based on BirdsOfParadise.
 
