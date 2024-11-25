@@ -40,43 +40,21 @@
         {
           "background": "#6BA18A",
           "background_templates": [
-            "{{ if or (.Working.Changed) (.Staging.Changed) }}#9B6C4A{{ end }}",
+            "{{ if or (.Working.Changed) (.Staging.Changed) }}#95D8BA{{ end }}",
             "{{ if and (gt .Ahead 0) (gt .Behind 0) }}#BE2D26{{ end }}",
             "{{ if gt .Ahead 0 }}#93CFD7{{ end }}",
-            "{{ if gt .Behind 0 }}#9B6C4A{{ end }}"
+            "{{ if gt .Behind 0 }}#95D8BA{{ end }}"
           ],
           "foreground": "#2A1F1D",
           "properties": {
-            "branch_icon": " ",
+            "branch_icon": "",
             "fetch_stash_count": true,
             "fetch_status": true,
-            "fetch_upstream_icon": true,
-            "mapped_branches": {
-              "main": "👑",
-              "master": "👑",
-              "prd": "👑",
-              "product": "👑",
-              "production": "👑",
-              "dev": "🛠️",
-              "development": "🛠️",
-              "staging": "💃",
-              "stage": "💃",
-              "stg": "💃",
-              "*-main": "👑",
-              "*-master": "👑",
-              "*-prd": "👑",
-              "*-product": "👑",
-              "*-production": "👑",
-              "*-dev": "🛠️",
-              "*-development": "🛠️",
-              "*-staging": "💃",
-              "*-stage": "💃",
-              "*-stg": "💃"
-            }
+            "fetch_upstream_icon": true
           },
           "style": "diamond",
           "leading_diamond": "",
-          "template": " {{ .UpstreamIcon }}{{ .HEAD }}{{if .BranchStatus }} {{ .BranchStatus }}{{ end }}{{ if .Working.Changed }}  {{ .Working.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }}  {{ .Staging.String }}{{ end }}{{ if gt .StashCount 0 }}  {{ .StashCount }}{{ end }} ",
+          "template": " {{ .UpstreamIcon }}{{ .HEAD }}{{if .BranchStatus }} {{ .BranchStatus }}{{ end }}{{ if .Working.Changed }} 📝 {{ .Working.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }} 💃 {{ .Staging.String }}{{ end }}{{ if gt .StashCount 0 }} 💾 {{ .StashCount }}{{ end }} ",
           "type": "git"
         },
         {
